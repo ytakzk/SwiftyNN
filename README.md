@@ -7,6 +7,43 @@ Pure Swift Neural Network. (WIP)
 [![License](https://img.shields.io/cocoapods/l/SwiftyNN.svg?style=flat)](http://cocoapods.org/pods/SwiftyNN)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyNN.svg?style=flat)](http://cocoapods.org/pods/SwiftyNN)
 
+## TO-DO
+- [x] 1D neural network
+- [ ] Convolutional neural network
+- [ ] Create a class to create a neural network easily
+- [ ] Release
+
+## Sample codes
+
+```
+let XTrain = Matrix(Mnist.XTrain)
+let yTrain = Matrix(Mnist.yTrain, axies: .row)
+
+let net    = NeuralNet(inputNum: 784, hiddenNum: 50, outputNum: 10)
+
+let batch  = 100
+
+(0..<5000).forEach {
+
+    let induces = XTrain.randomInduces(num: batch)
+    let XBatch  = XTrain.batch(induces: induces)
+    let yBatch  = yTrain.batch(induces: induces)
+
+    net.gradient(x: XBatch, t: yBatch)
+
+    let loss = net.loss(x: XBatch, t: yBatch)
+
+    if $0 % 500 == 0 {
+
+        print("\($0) iter: \(loss.description)")
+    }
+}
+let XTest = Matrix(Mnist.XTest)
+let yTest = Matrix(Mnist.yTest, axies: .row)
+
+print("Accuracy: \(net.accuracy(x: XTest, t: yTest))")
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
