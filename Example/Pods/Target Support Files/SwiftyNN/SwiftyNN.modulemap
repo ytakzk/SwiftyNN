@@ -1,0 +1,6 @@
+framework module SwiftyNN {
+  umbrella header "SwiftyNN-umbrella.h"
+
+  export *
+  module * { export * }
+}

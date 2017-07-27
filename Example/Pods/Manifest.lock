@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyNN (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyNN (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyNN:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyNN: afd2379ea8bf0281063d6cb12bc401f8cf2a0de2
+
+PODFILE CHECKSUM: 8f812f6fa85e85dd35e8cef28a200ac6d4a81401
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyNN",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyNN.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ytakzk/SwiftyNN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ytakzk": "yt@ytakzk.me"
+  },
+  "source": {
+    "git": "https://github.com/ytakzk/SwiftyNN.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyNN/Classes/**/*"
+}

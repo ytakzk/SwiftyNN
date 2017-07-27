@@ -13,8 +13,36 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		99B24FEB79B94C7CF9CB9591 /* Pods_SwiftyNN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F61C4A10413B55385E0EDCB /* Pods_SwiftyNN_Example.framework */; };
+		FADC44C31F29B3CE0053E507 /* LayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C11F29B3CE0053E507 /* LayerTests.swift */; };
+		FADC44C41F29B3CE0053E507 /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C21F29B3CE0053E507 /* MatrixTests.swift */; };
+		FADC44C61F29B3D70053E507 /* DifferentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C51F29B3D70053E507 /* DifferentialTests.swift */; };
+		FADC44D01F29B46C0053E507 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C91F29B46C0053E507 /* Arithmetic.swift */; };
+		FADC44D11F29B46C0053E507 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C91F29B46C0053E507 /* Arithmetic.swift */; };
+		FADC44D21F29B46C0053E507 /* Differential.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CA1F29B46C0053E507 /* Differential.swift */; };
+		FADC44D31F29B46C0053E507 /* Differential.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CA1F29B46C0053E507 /* Differential.swift */; };
+		FADC44D41F29B46C0053E507 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CB1F29B46C0053E507 /* Exponential.swift */; };
+		FADC44D51F29B46C0053E507 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CB1F29B46C0053E507 /* Exponential.swift */; };
+		FADC44D61F29B46C0053E507 /* Loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CC1F29B46C0053E507 /* Loss.swift */; };
+		FADC44D71F29B46C0053E507 /* Loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CC1F29B46C0053E507 /* Loss.swift */; };
+		FADC44D81F29B46C0053E507 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CD1F29B46C0053E507 /* Matrix.swift */; };
+		FADC44D91F29B46C0053E507 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CD1F29B46C0053E507 /* Matrix.swift */; };
+		FADC44DA1F29B46C0053E507 /* Matrix+Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CE1F29B46C0053E507 /* Matrix+Arithmetic.swift */; };
+		FADC44DB1F29B46C0053E507 /* Matrix+Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CE1F29B46C0053E507 /* Matrix+Arithmetic.swift */; };
+		FADC44DC1F29B46C0053E507 /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CF1F29B46C0053E507 /* Pow.swift */; };
+		FADC44DD1F29B46C0053E507 /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44CF1F29B46C0053E507 /* Pow.swift */; };
+		FADC44E01F29B4740053E507 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44DE1F29B4740053E507 /* Activation.swift */; };
+		FADC44E11F29B4740053E507 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44DE1F29B4740053E507 /* Activation.swift */; };
+		FADC44E21F29B4740053E507 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44DF1F29B4740053E507 /* Layer.swift */; };
+		FADC44E31F29B4740053E507 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44DF1F29B4740053E507 /* Layer.swift */; };
+		FADC44E71F29B5150053E507 /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44E61F29B5150053E507 /* NeuralNet.swift */; };
+		FADC44E81F29B5150053E507 /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44E61F29B5150053E507 /* NeuralNet.swift */; };
+		FADC44EB1F29B53C0053E507 /* Mnist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44EA1F29B53C0053E507 /* Mnist.swift */; };
+		FADC44ED1F29B5460053E507 /* Mnist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC44EA1F29B53C0053E507 /* Mnist.swift */; };
+		FADC44F31F29B5640053E507 /* t10k-images-idx3-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = FADC44EF1F29B5640053E507 /* t10k-images-idx3-ubyte.data */; };
+		FADC44F41F29B5640053E507 /* t10k-labels-idx1-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = FADC44F01F29B5640053E507 /* t10k-labels-idx1-ubyte.data */; };
+		FADC44F51F29B5640053E507 /* train-images-idx3-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = FADC44F11F29B5640053E507 /* train-images-idx3-ubyte.data */; };
+		FADC44F61F29B5640053E507 /* train-labels-idx1-ubyte.data in Resources */ = {isa = PBXBuildFile; fileRef = FADC44F21F29B5640053E507 /* train-labels-idx1-ubyte.data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +58,9 @@
 /* Begin PBXFileReference section */
 		2D2EF4B29CF3F397FB418054 /* Pods-SwiftyNN_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyNN_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyNN_Example/Pods-SwiftyNN_Example.release.xcconfig"; sourceTree = "<group>"; };
 		32B627D87E2CBAA0F4E4B14D /* Pods-SwiftyNN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyNN_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyNN_Tests/Pods-SwiftyNN_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40BE88AF3380AEEAC814D25B /* SwiftyNN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyNN.podspec; path = ../SwiftyNN.podspec; sourceTree = "<group>"; };
+		40BE88AF3380AEEAC814D25B /* SwiftyNN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyNN.podspec; path = ../SwiftyNN.podspec; sourceTree = "<group>"; };
 		41CA2798A7DAFD9ED910CB3E /* Pods-SwiftyNN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyNN_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyNN_Tests/Pods-SwiftyNN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B7052AF8A0FA592F7A3352E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B7052AF8A0FA592F7A3352E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyNN_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyNN_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +70,28 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftyNN_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyNN_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F61C4A10413B55385E0EDCB /* Pods_SwiftyNN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyNN_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CA2C5B5914975938BBCF2B /* Pods-SwiftyNN_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyNN_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyNN_Example/Pods-SwiftyNN_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E214AD3217DCC49EADB1F3C1 /* Pods_SwiftyNN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyNN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E80DAD46C25C6375996647A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E80DAD46C25C6375996647A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FADC44C11F29B3CE0053E507 /* LayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerTests.swift; sourceTree = "<group>"; };
+		FADC44C21F29B3CE0053E507 /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
+		FADC44C51F29B3D70053E507 /* DifferentialTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentialTests.swift; sourceTree = "<group>"; };
+		FADC44C91F29B46C0053E507 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		FADC44CA1F29B46C0053E507 /* Differential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Differential.swift; sourceTree = "<group>"; };
+		FADC44CB1F29B46C0053E507 /* Exponential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
+		FADC44CC1F29B46C0053E507 /* Loss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loss.swift; sourceTree = "<group>"; };
+		FADC44CD1F29B46C0053E507 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		FADC44CE1F29B46C0053E507 /* Matrix+Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Matrix+Arithmetic.swift"; sourceTree = "<group>"; };
+		FADC44CF1F29B46C0053E507 /* Pow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pow.swift; sourceTree = "<group>"; };
+		FADC44DE1F29B4740053E507 /* Activation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		FADC44DF1F29B4740053E507 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		FADC44E61F29B5150053E507 /* NeuralNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		FADC44EA1F29B53C0053E507 /* Mnist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mnist.swift; sourceTree = "<group>"; };
+		FADC44EF1F29B5640053E507 /* t10k-images-idx3-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-images-idx3-ubyte.data"; sourceTree = "<group>"; };
+		FADC44F01F29B5640053E507 /* t10k-labels-idx1-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "t10k-labels-idx1-ubyte.data"; sourceTree = "<group>"; };
+		FADC44F11F29B5640053E507 /* train-images-idx3-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images-idx3-ubyte.data"; sourceTree = "<group>"; };
+		FADC44F21F29B5640053E507 /* train-labels-idx1-ubyte.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels-idx1-ubyte.data"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +126,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				FADC44B41F29B3730053E507 /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftyNN */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -102,8 +148,10 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyNN */ = {
 			isa = PBXGroup;
 			children = (
+				FADC44EE1F29B5540053E507 /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				FADC44E61F29B5150053E507 /* NeuralNet.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -124,7 +172,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				FADC44C51F29B3D70053E507 /* DifferentialTests.swift */,
+				FADC44C11F29B3CE0053E507 /* LayerTests.swift */,
+				FADC44C21F29B3CE0053E507 /* MatrixTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -157,6 +207,59 @@
 				32B627D87E2CBAA0F4E4B14D /* Pods-SwiftyNN_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FADC44B41F29B3730053E507 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44E91F29B5250053E507 /* DataSet */,
+				FADC44C81F29B4300053E507 /* Math */,
+				FADC44C71F29B4210053E507 /* Layers */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		FADC44C71F29B4210053E507 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44DE1F29B4740053E507 /* Activation.swift */,
+				FADC44DF1F29B4740053E507 /* Layer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		FADC44C81F29B4300053E507 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44C91F29B46C0053E507 /* Arithmetic.swift */,
+				FADC44CA1F29B46C0053E507 /* Differential.swift */,
+				FADC44CB1F29B46C0053E507 /* Exponential.swift */,
+				FADC44CC1F29B46C0053E507 /* Loss.swift */,
+				FADC44CD1F29B46C0053E507 /* Matrix.swift */,
+				FADC44CE1F29B46C0053E507 /* Matrix+Arithmetic.swift */,
+				FADC44CF1F29B46C0053E507 /* Pow.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		FADC44E91F29B5250053E507 /* DataSet */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44EA1F29B53C0053E507 /* Mnist.swift */,
+			);
+			path = DataSet;
+			sourceTree = "<group>";
+		};
+		FADC44EE1F29B5540053E507 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44EF1F29B5640053E507 /* t10k-images-idx3-ubyte.data */,
+				FADC44F01F29B5640053E507 /* t10k-labels-idx1-ubyte.data */,
+				FADC44F11F29B5640053E507 /* train-images-idx3-ubyte.data */,
+				FADC44F21F29B5640053E507 /* train-labels-idx1-ubyte.data */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +352,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				FADC44F31F29B5640053E507 /* t10k-images-idx3-ubyte.data in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				FADC44F61F29B5640053E507 /* train-labels-idx1-ubyte.data in Resources */,
+				FADC44F41F29B5640053E507 /* t10k-labels-idx1-ubyte.data in Resources */,
+				FADC44F51F29B5640053E507 /* train-images-idx3-ubyte.data in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,8 +468,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADC44D81F29B46C0053E507 /* Matrix.swift in Sources */,
+				FADC44D61F29B46C0053E507 /* Loss.swift in Sources */,
+				FADC44D01F29B46C0053E507 /* Arithmetic.swift in Sources */,
+				FADC44EB1F29B53C0053E507 /* Mnist.swift in Sources */,
+				FADC44E21F29B4740053E507 /* Layer.swift in Sources */,
+				FADC44DC1F29B46C0053E507 /* Pow.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				FADC44DA1F29B46C0053E507 /* Matrix+Arithmetic.swift in Sources */,
+				FADC44D21F29B46C0053E507 /* Differential.swift in Sources */,
+				FADC44E71F29B5150053E507 /* NeuralNet.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FADC44D41F29B46C0053E507 /* Exponential.swift in Sources */,
+				FADC44E01F29B4740053E507 /* Activation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +488,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				FADC44DD1F29B46C0053E507 /* Pow.swift in Sources */,
+				FADC44DB1F29B46C0053E507 /* Matrix+Arithmetic.swift in Sources */,
+				FADC44C41F29B3CE0053E507 /* MatrixTests.swift in Sources */,
+				FADC44E31F29B4740053E507 /* Layer.swift in Sources */,
+				FADC44D51F29B46C0053E507 /* Exponential.swift in Sources */,
+				FADC44D11F29B46C0053E507 /* Arithmetic.swift in Sources */,
+				FADC44D71F29B46C0053E507 /* Loss.swift in Sources */,
+				FADC44D91F29B46C0053E507 /* Matrix.swift in Sources */,
+				FADC44C61F29B3D70053E507 /* DifferentialTests.swift in Sources */,
+				FADC44ED1F29B5460053E507 /* Mnist.swift in Sources */,
+				FADC44C31F29B3CE0053E507 /* LayerTests.swift in Sources */,
+				FADC44E81F29B5150053E507 /* NeuralNet.swift in Sources */,
+				FADC44E11F29B4740053E507 /* Activation.swift in Sources */,
+				FADC44D31F29B46C0053E507 /* Differential.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
