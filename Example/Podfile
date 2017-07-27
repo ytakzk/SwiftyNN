@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyNN_Example' do
+  pod 'SwiftyNN', :path => '../'
+
+  target 'SwiftyNN_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
