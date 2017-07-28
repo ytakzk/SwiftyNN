@@ -10,7 +10,7 @@ Pure Swift Neural Network. (WIP)
 ## TO-DO
 - [x] 1D neural network
 - [ ] Convolutional neural network
-- [ ] Create a class to create a neural network easily
+- [ ] Create a class to create neural networks easily
 - [ ] Release
 
 ## Sample codes
